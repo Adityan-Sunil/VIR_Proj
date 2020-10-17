@@ -1,0 +1,71 @@
+.header{
+    text-align: center;
+    width:100%;
+    font-size: 2em;
+}
+.server-mems{
+    border:1px solid black;
+    position: absolute;
+    top:15%;
+    right:5%;
+    width:20%;
+}
+.server-mem{
+    height:5vh;
+    width:97%;
+    display: inline-flex;
+    border:1px solid black;
+    margin:1%;
+    line-height: 5vh;
+}
+.mem-name{
+    margin-left:1%;
+}
+.mem-color{
+    width:5%;
+}
+.grid{
+    position: absolute;
+    top:15%;
+    right:35%;
+    text-align: center;
+}
+.element{
+    width:50px;
+    height:50px;
+    border:1px solid black;
+}
+.container{
+    height:50px;
+}
+.row{
+    display:inline-flex;
+}
+.roomName{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    width:97%;
+    margin:1%;
+}
+#forms{
+    position:absolute;
+    left:35%;
+    top:20%;
+    font-size:1.5em;
+    text-align: center;
+    border:1px solid black;
+    padding:1%;
+    height:40%;
+    padding-top:3%;
+}
+#forms input{
+    margin:5%;
+    padding:1%;
+    width:300px;
+}
+#forms button{
+    margin:2%;
+    padding:1%;
+    font-size:0.8em;
+}
